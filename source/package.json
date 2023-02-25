@@ -1,0 +1,29 @@
+{
+  "name": "world-grid-geojson",
+  "version": "1.0.0",
+  "description": "geojson feature collections of polygons representing the world grid in degrees",
+  "main": "generate.js",
+  "scripts": {
+    "dev": "node generate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeionTamer/world-grid-geojson.git"
+  },
+  "keywords": [
+    "geojson",
+    "turfjs",
+    "world-geo",
+    "square-grid"
+  ],
+  "author": "leon carbonell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeionTamer/world-grid-geojson/issues"
+  },
+  "homepage": "https://github.com/LeionTamer/world-grid-geojson#readme",
+  "dependencies": {
+    "@turf/helpers": "^6.5.0"
+  }
+}
